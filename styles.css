@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminal {
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.output {
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+}
+
+.input-container {
+    display: flex;
+}
+
+.prompt {
+    margin-right: 5px;
+    color: #00ff00;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: inherit;
+    width: 90%;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
